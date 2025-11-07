@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- !Favicon -->
+    <link rel="shortcut icon" href="https://braintap.com/wp-content/uploads/2024/05/brainwave-entrainment-1.jpeg" type="image/x-icon">
     <!-- !BOOTSTRAP css CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -11,7 +13,13 @@
       crossorigin="anonymous"
     />
     <!--  !Font Awsome icon cdn -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- !RESET Css -->
     <link rel="stylesheet" href="../css/reset.css" />
     <!-- !CSS Link -->
@@ -21,93 +29,106 @@
     <title>Brainwave.io | Login</title>
   </head>
   <body>
- <!-- Header -->
-  <header class="header">
+    <div class="icon-arrow">
+          <a href="../index.html"> <i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+
+
+    <!-- Header -->
     <h2>Brainwave.io</h2>
-  </header>
-
-  <!-- Login Section -->
-  <section class="login-section">
-    <div class="login-header">
+    <!-- Login Section -->
+    <section class="login-section">
+      <div class="login-header">
         <h1>Login</h1>
-      <p class="subtitle">To get started, you need to sign in here.</p>
-    </div>
-    <div class="login-container">
+        <p class="subtitle">To get started, you need to sign in here.</p>
+      </div>
+      <div class="login-container">
+        <form class="login-form">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="i.e. john@mail.com"
+            required
+          />
 
-      <form class="login-form">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="i.e. john@mail.com" required />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="********"
+            required
+          />
 
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="********" required />
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+      <p class="register-text">
+        Don’t have an account?
+        <a href="../pages/signup.html">Create an account</a>
+      </p>
+    </section>
 
-        <button type="submit">Sign In</button>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>Brainwave.io</h3>
+          <p>
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next landing page.
+          </p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
 
-       
-      </form>
-    </div>
-       <p class="register-text">
-          Don’t have an account? <a href="../pages/signup.html">Create an account</a>
-        </p>
-  </section>
+        <div class="footer-links">
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-about">
-        <h3>Brainwave.io</h3>
-        <p>With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <div>
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Help desk</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Content Writing</a></li>
+              <li><a href="#">SEO for Business</a></li>
+              <li><a href="#">UI Design</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-
-      <div class="footer-links">
-        <div >
-          <h4>Company</h4>
-          <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4>Product</h4>
-          <ul>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Help desk</a></li>
-            <li><a href="#">Support</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4>Services</h4>
-          <ul>
-            <li><a href="#">Digital Marketing</a></li>
-            <li><a href="#">Content Writing</a></li>
-            <li><a href="#">SEO for Business</a></li>
-            <li><a href="#">UI Design</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Return Policy</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
     <!-- !BOOTSTRAP js CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

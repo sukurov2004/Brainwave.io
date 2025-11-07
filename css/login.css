@@ -3,17 +3,18 @@
 /* *ROBOTO Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-/* Header */
-.header {
+/** Header */
+h2 {
   text-align: center;
   padding: 25px 0;
   font-weight: 700;
   font-size: 24px;
+  letter-spacing: -0.13px;
   font-family: "Rubik", sans-serif;
   color: #161c2d;
 }
 
-/* Login Section */
+/** Login Section */
 .login-section {
   font-family: "Roboto", sans-serif;
   background-color: #f4f7fa;
@@ -30,6 +31,7 @@
 .login-section h1 {
   font-size: 60px;
   line-height: 65px;
+  letter-spacing: -2px;
   font-weight: 700;
   color: #161c2d;
 }
@@ -38,6 +40,7 @@
   font-weight: 400;
   font-size: 19px;
   line-height: 32px;
+  letter-spacing: -0.2;
   opacity: 0.7;
   color: #161c2d;
   padding: 34px 0 55px 0;
@@ -63,10 +66,11 @@
   font-weight: 700;
   font-size: 15px;
   line-height: 26px;
+  letter-spacing: -0.1px;
 }
 
 .login-form input {
-  padding: 12px 18px;
+  padding: 12px 19px;
   margin-bottom: 20px;
   border: 1px solid #e5e7eb;
   border-radius: 8px;

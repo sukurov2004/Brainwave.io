@@ -3,8 +3,8 @@
 /* *ROBOTO Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* Header */
-.header {
+/* *Header */
+h2 {
   text-align: center;
   padding: 25px 0;
   font-weight: 700;
@@ -13,7 +13,7 @@
   color: #161c2d;
 }
 
-/* Sign Up Section */
+/* *Sign Up Section */
 .signup-section {
   font-family: "Roboto", sans-serif;
   background-color: #f4f7fa;
@@ -45,7 +45,7 @@
   padding: 34px 0 55px 0;
 }
 
-/* Form Container */
+/** Form Container */
 .signup-container {
   background: #fff;
   padding: 30px 25px;
@@ -100,7 +100,6 @@
   background-color: #4338ca;
 }
 
-/* “Already have an account?” */
 .login-text {
   text-align: center;
   margin-top: 35px;

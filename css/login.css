@@ -1,4 +1,116 @@
 /* *RUBIK Font */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 /* *ROBOTO Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 25px 0;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  color: #161c2d;
+}
+
+/* Login Section */
+.login-section {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+  margin-bottom: 70px;
+}
+.login-header {
+  text-align: center;
+}
+.login-section h1 {
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 700;
+  color: #161c2d;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  opacity: 0.7;
+  color: #161c2d;
+  padding: 34px 0 55px 0;
+}
+.login-container {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  max-width: 350px;
+  width: 100%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-form label {
+  margin-bottom: 7px;
+  color: #161c2d;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.login-form input {
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  opacity: 0.7;
+  color: #161c2d;
+}
+
+.login-form button {
+  background-color: #473bf0;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  margin-top: 70px;
+  padding: 14px 0;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 32px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #4338ca;
+}
+
+.register-text {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #161c2d;
+}
+
+.register-text a {
+  color: #473bf0;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}

@@ -2,7 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 /* *ROBOTO Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-/** HEADER START */
+
+
+main{
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* *Login/signup header arrow icon* */
 .icon-arrow a i{
   position: absolute;
   top: 30px;
@@ -15,6 +22,8 @@
 .icon-arrow a i:hover{
   color: #fb6d45;
 }
+
+/** HEADER START */
 .header {
   display: flex;
   justify-content: space-between;
@@ -65,7 +74,74 @@
 .login-btn:hover {
   color: #fb6d45;
 }
+
+.burger-menu{
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #161c2d;
+}
+
+/* *Responsive design* */
+@media (max-width: 920px) {
+  .navlist {
+    display: none;
+  }
+  .header-btns {
+    display: none;
+  }
+  .header {
+    padding: 21px 50px;
+  }
+.burger-menu{
+    display: block;
+}
+}
+
+.home-header {
+   background-color: #f4faef;
+}
 /** HEADER END */
+
+  
+/** Hero start */
+.hero{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ gap: 100px;
+ padding: 60px 250px 0 250px;
+ background-color: #f4faef;
+ background-image: url(../img/homepage/hero_img2.svg);
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.hero-content h2{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -2px;
+  color: #161C2D;
+  margin-bottom: 24px;
+}
+.hero-content p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #161C2D;
+  max-width: 540px;
+  opacity: 0.7;
+}
+
+/** Hero end */
+
+
+
+
+
+
+
 
 /** Footer start*/
 .footer {
@@ -137,5 +213,4 @@
 .footer-links ul li a:hover {
   color: #fff;
 }
-
 /** Footer end*/

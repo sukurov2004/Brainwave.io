@@ -153,7 +153,7 @@
   flex-wrap: wrap;
   gap: 30px;
   padding: 0 100px;
-  justify-content: center;
+    justify-content: center;
 }
 .teammember-title {
   font-weight: 700;

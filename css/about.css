@@ -113,7 +113,7 @@
 }
 /* HIGH SKILLED SECTION END */
 
-/* MEET OUR TEM SECTION START */
+/* MEET OUR TEAM SECTION START */
 .meetourteam-section {
   padding-top: 107px;
   font-family: Roboto, "sans-serif";
@@ -140,4 +140,31 @@
   line-height: 32px;
   opacity: 0.7;
   width: 38%;
+}
+/* MEET OUR TEAM SECTION END */
+.team-section {
+  padding: 68px 0px 179px 0px;
+  display: flex;
+  font-family: Roboto, "sans-serif";
+  color: #161c2d;
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 100px;
+  justify-content: center;
+}
+.teammember-title {
+  font-weight: 700;
+  font-size: 21px;
+  letter-spacing: -0.5px;
+  margin-top: 31px;
+}
+.teammember-parag {
+  font-weight: 400;
+  font-size: 17px;
+  margin: 8px 0 30px 0;
+  opacity: 0.7;
+  letter-spacing: -0.2px;
 }

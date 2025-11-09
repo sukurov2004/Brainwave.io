@@ -309,6 +309,88 @@ main {
   max-width: 340px;
 }
 /** HowItWork end */
+/** Feature job start */
+.feature-job{
+  padding: 0 250px 140px 250px;
+  margin-bottom: 100px;
+  background-image: url(../img/homepage/hero_img2.svg);
+  background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.feature-content h4{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  color: #161C2D;
+}
+.feature-content p{
+  position: relative;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #161C2D;
+  opacity: 0.7;
+  max-width: 350px;
+  margin: 17px 0 87px 0;
+}
+.feature-content img{
+  position: absolute;
+  right: 0;
+}
+.feature-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.feature-cards .card{
+padding: 30px 34px;
+width: 255px;
+display: flex;
+justify-content: space-between;
+transition: all 0.3s ease;
+}
+.feature-cards .card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.feature-cards .card h5{
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.63px;
+}
+.feature-cards .card h3{
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  margin: 17px 0 6px 0;
+}
+.feature-cards .card p{
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.feature-cards .card .card-icon{
+  display: flex;
+  gap: 10px;
+  margin-top: 55px;
+}
+.feature-cards .card .card-icon img{
+  width: 32px;
+  height: 32px;
+}
+.feature-cards .card .card-icon p{
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #161C2D;
+}
+/** Feature job  end */
 
 /** Footer start*/
 .footer {

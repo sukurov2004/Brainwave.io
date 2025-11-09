@@ -3,6 +3,23 @@
 /* *ROBOTO Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
+/* FONTS */
+:root {
+  /* Font Families */
+  --font-brand: "Rubik", sans-serif;
+  --font-content: "Roboto", sans-serif;
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+/* COLORS */
+:root {
+  --text-black: #161c2d; /* mətnin rəngi */
+  --text-orange: #fb6d45; /* Hover rəngi */
+  --bg-white: #ffffff; /* əsas background */
+  --bg-lightblue: #f4f7fa; /* bölmə rəngi */
+}
 /* SECTION-1 START */
 .support-section1 {
   font-family: Roboto, "sans-serif";
@@ -10,7 +27,7 @@
   display: flex;
   flex-direction: column;
   gap: 44px;
-  color: #161c2d;
+  color: var(--text-black);
   align-items: center;
 }
 .section1-support-title {
@@ -35,9 +52,9 @@
   display: flex;
   justify-content: center;
   font-family: Roboto, "sans-serif";
+  color: var(--text-black);
 }
 .section2-support-parag {
-  color: #161c2d;
   font-size: 17px;
   letter-spacing: -0.2px;
   font-weight: 400;
@@ -56,6 +73,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--text-black);
 }
 .support-license-container {
   text-align: left;
@@ -67,7 +85,6 @@
 .support-license-title {
   font-size: 19px;
   font-weight: 700;
-  color: #161c2d;
 }
 .support-license-parag {
   font-size: 17px;
@@ -86,6 +103,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--text-black);
 }
 .support-security-container {
   text-align: left;
@@ -97,7 +115,6 @@
 .support-security-title {
   font-size: 19px;
   font-weight: 700;
-  color: #161c2d;
 }
 .support-security-list {
   display: flex;
@@ -121,6 +138,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--text-black);
 }
 .support-embedded-container {
   text-align: left;
@@ -132,7 +150,6 @@
 .support-embedded-title {
   font-size: 19px;
   font-weight: 700;
-  color: #161c2d;
 }
 .support-embedded-parag {
   font-size: 17px;
@@ -153,6 +170,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 210px;
+  color: var(--text-black);
 }
 .support-changes-container {
   text-align: left;
@@ -164,7 +182,6 @@
 .support-changes-title {
   font-size: 19px;
   font-weight: 700;
-  color: #161c2d;
 }
 .support-changes-parag {
   font-size: 17px;

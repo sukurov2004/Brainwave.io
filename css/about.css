@@ -2,17 +2,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 /* *ROBOTO Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/* FONTS */
+:root {
+  /* Font Families */
+  --font-brand: "Rubik", sans-serif;
+  --font-content: "Roboto", sans-serif;
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+/* COLORS */
+:root {
+  --text-black: #161c2d; /* mətnin rəngi */
+  --text-orange: #fb6d45; /* Hover rəngi */
+  --bg-white: #ffffff; /* əsas background */
+  --bg-lightblue: #f4f7fa; /* bölmə rəngi */
+}
 
 /* OUR STORY START */
 .ourstory-section {
-  font-family: Roboto, "sans-serif";
+  font-family: var(--font-content);
   display: flex;
   flex-direction: column;
   gap: 44px;
   padding-top: 88px;
   align-items: center;
   text-align: center;
-  color: #161c2d;
+  color: var(--text-black);
 }
 .ourstory-title {
   font-size: 60px;
@@ -37,8 +53,8 @@
   display: flex;
   padding: 141px 0px 86px 245px;
   gap: 121px;
-  font-family: Roboto, "sans-serif";
-  color: #161c2d;
+  font-family: var(--font-content);
+  color: var(--text-black);
 }
 .wearehere-title {
   font-weight: 700;
@@ -64,10 +80,11 @@
 .highskilled-section {
   display: flex;
   height: 893px;
-  background-color: #f4f7fa;
-  font-family: Roboto, "sans-serif";
+  background-color: var(--bg-lightblue);
+  font-family: var(--font-content);
   gap: 95px;
   padding-left: 254px;
+  color: var(--text-black);
 }
 .highskilled-imgs {
   display: flex;
@@ -100,7 +117,6 @@
   letter-spacing: -1.8px;
   line-height: 58px;
   width: 55%;
-  color: #161c2d;
 }
 .highskilled-parag {
   gap: 40px;
@@ -116,7 +132,8 @@
 /* MEET OUR TEAM SECTION START */
 .meetourteam-section {
   padding-top: 107px;
-  font-family: Roboto, "sans-serif";
+  font-family: var(--font-content);
+  color: var(--text-black);
 }
 .meetourteam-text {
   text-align: center;
@@ -130,7 +147,6 @@
   font-size: 48px;
   letter-spacing: -1.8px;
   line-height: 58px;
-  color: #161c2d;
 }
 .meetourteam-parag {
   gap: 40px;
@@ -145,8 +161,8 @@
 .team-section {
   padding: 68px 0px 179px 0px;
   display: flex;
-  font-family: Roboto, "sans-serif";
-  color: #161c2d;
+  font-family: var(--font-content);
+  color: var(--text-black);
 }
 .team-container {
   display: flex;

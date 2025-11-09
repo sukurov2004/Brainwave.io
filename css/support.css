@@ -1,0 +1,194 @@
+/* *RUBIK Font */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/* *ROBOTO Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* FONTS */
+:root {
+  /* Font Families */
+  --font-brand: "Rubik", sans-serif;
+  --font-content: "Roboto", sans-serif;
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+/* COLORS */
+:root {
+  --text-black: #161c2d; /* mətnin rəngi */
+  --text-orange: #fb6d45; /* Hover rəngi */
+  --bg-white: #ffffff; /* əsas background */
+  --bg-lightblue: #f4f7fa; /* bölmə rəngi */
+}
+/* SECTION-1 START */
+.support-section1 {
+  font-family: var(--font-content);
+  padding-top: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  color: var(--text-black);
+  align-items: center;
+}
+.section1-support-title {
+  font-weight: var(--font-weight-bold);
+  font-size: 60px;
+  letter-spacing: -2px;
+}
+.section1-support-parag {
+  font-weight: var(--font-weight-regular);
+  font-size: 19px;
+  letter-spacing: -0.2px;
+  width: 43%;
+  text-align: center;
+  line-height: 32px;
+  opacity: 0.7;
+}
+/* SECTION-1 END */
+
+/* SECTION-2 START */
+.support-section2 {
+  padding-top: 39px;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-content);
+  color: var(--text-black);
+}
+.section2-support-parag {
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  font-weight: var(--font-weight-regular);
+  line-height: 29px;
+  width: 45%;
+  display: flex;
+  opacity: 0.7;
+}
+/* SECTION-2 END */
+
+/* SUPPORT LICENSE START */
+.support-license {
+  padding-top: 43px;
+  display: flex;
+  font-family: var(--font-content);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-black);
+}
+.support-license-container {
+  text-align: left;
+  width: 45%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.support-license-title {
+  font-size: 19px;
+  font-weight: var(--font-weight-bold);
+}
+.support-license-parag {
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  font-weight: var(--font-weight-regular);
+  line-height: 29px;
+  opacity: 0.7;
+  display: flex;
+}
+/* SUPPORT LICENSE END */
+/* SUPPORT SECURITY START */
+.support-security {
+  padding-top: 43px;
+  display: flex;
+  font-family: var(--font-content);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-black);
+}
+.support-security-container {
+  text-align: left;
+  width: 45%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.support-security-title {
+  font-size: 19px;
+  font-weight: var(--font-weight-bold);
+}
+.support-security-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: disc;
+}
+.support-security-item {
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  font-weight: var(--font-weight-regular);
+  opacity: 0.7;
+}
+/* SUPPORT SECURITY END */
+
+/* SUPPORT EMBEDDED START */
+.support-embedded {
+  padding-top: 43px;
+  display: flex;
+  font-family: var(--font-content);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-black);
+}
+.support-embedded-container {
+  text-align: left;
+  width: 45%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.support-embedded-title {
+  font-size: 19px;
+  font-weight: var(--font-weight-bold);
+}
+.support-embedded-parag {
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  font-weight: var(--font-weight-regular);
+  line-height: 29px;
+  opacity: 0.7;
+  display: flex;
+}
+/* SUPPORT EMBEDDED END */
+
+/* SUPPORT CHANGES START */
+.support-changes {
+  padding-top: 43px;
+  display: flex;
+  font-family: var(--font-content);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 210px;
+  color: var(--text-black);
+}
+.support-changes-container {
+  text-align: left;
+  width: 45%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.support-changes-title {
+  font-size: 19px;
+  font-weight: var(--font-weight-bold);
+}
+.support-changes-parag {
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  font-weight: var(--font-weight-regular);
+  line-height: 29px;
+  opacity: 0.7;
+  display: flex;
+}
+/* SUPPORT CHANGES END */

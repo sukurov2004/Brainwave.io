@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 /* *ROBOTO Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-/* FONTS */
+/** FONTS */
 :root {
   /* Font Families */
   --font-brand: "Rubik", sans-serif;
@@ -11,7 +11,7 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 }
-/* COLORS */
+/** COLORS */
 :root {
   --text-black: #161c2d; /* mətnin rəngi */
   --text-orange: #fb6d45; /* Hover rəngi */
@@ -19,7 +19,7 @@
   --bg-lightblue: #f4f7fa; /* bölmə rəngi */
 }
 
-/* OUR STORY START */
+/** OUR STORY START */
 .ourstory-section {
   font-family: var(--font-content);
   display: flex;

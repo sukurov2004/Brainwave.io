@@ -2,6 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 /* *ROBOTO Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  /** Font Families */
+  --font-brand: "Rubik", sans-serif;
+  --font-content: "Roboto", sans-serif;
+  /** Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* *Colors* */
+  --text-black: #161c2d; /* mətnin rəngi */
+  --bg-white: #ffffff; /* əsas background */
+  --bg-lightblue: #f4f7fa; /* bölmə rəngi */
+}
 
 main {
   font-family: "Roboto", sans-serif;
@@ -350,6 +363,7 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  /* flex-wrap: wrap; */
 }
 .feature-cards .card {
   padding: 30px 34px;
@@ -399,24 +413,24 @@ main {
 /** Feature job  end */
 
 /** news helps  start */
-.newshelp{
-  background-color: #F4F7FA;
+.newshelp {
+  background-color: #f4f7fa;
   padding: 120px 250px;
   margin-bottom: 120px;
 }
-.newshelp-content{
+.newshelp-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #161C2D;
+  color: #161c2d;
 }
-.newshelp-content h4{
+.newshelp-content h4 {
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: -1.2px;
 }
-.newshelp-content p{
+.newshelp-content p {
   font-size: 19px;
   font-weight: 400;
   line-height: 32px;
@@ -426,30 +440,96 @@ main {
   text-align: center;
   margin: 17px 0 75px 0;
 }
-.newshelp-cards{
+.newshelp-cards {
   display: flex;
   gap: 31px;
 }
-.news-card-content{
+.news-card-content {
   background-color: #ffffff;
-  color: #161C2D;
+  color: #161c2d;
   padding: 22px 30px 27px 32px;
 }
-.news-card-content h5{
-font-weight: 400;
-font-size: 15px;
-line-height: 26px;
-letter-spacing: -0.1px;
-opacity: 0.7;
-margin-bottom: 10px;
+.news-card-content h5 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  opacity: 0.7;
+  margin-bottom: 10px;
 }
-.news-card-content p{
-font-weight: 700;
-font-size: 21px;
-line-height: 32px;
-letter-spacing: -0.5px;
+.news-card-content p {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
 }
 /** news helps  end */
+
+/** newsletter  start */
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  color: #161c2d;
+}
+.newsletter-content {
+  text-align: center;
+}
+.newsletter-content h4 {
+  margin: 40px 0 20px 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+}
+.newsletter-content p {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  opacity: 0.7;
+  max-width: 502px;
+}
+.newsletter-main {
+  position: relative;
+  text-align: center;
+}
+
+.newsletter-main input {
+  width: 500px;
+  padding: 23px 19px;
+  border-radius: 8px;
+  border: 1px solid #f4f7fa;
+  margin-bottom: 25px;
+}
+.newsletter-main input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.18px;
+  opacity: 0.7;
+}
+.newsletter-main button {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #473bf0;
+  color: #fff;
+  padding: 20px 40px;
+}
+.newsletter-main p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  opacity: 0.7;
+}
+/** newsletter  end */
 
 /** Footer start*/
 .footer {

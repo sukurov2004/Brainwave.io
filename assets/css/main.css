@@ -596,6 +596,7 @@ main {
 }
 
 .newsletter-main input {
+  outline: none;
   width: 500px;
   padding: 23px 19px;
   border-radius: var(--radius-sm);
